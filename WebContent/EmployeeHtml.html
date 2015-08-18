@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<script src="EmployeeJs.js"></script>
+</head>
+<body>
+choose employee job type
+<select name="job_list" onchange="sendRequest(this.value)">
+<option value="nojob">....choosejob...</option>
+<option value="SH_CLERK">....SH_CLERK...</option>
+<option value="SA_REP">....SA_REP...</option>
+<option value="ANALYST">....ANALYST...</option>
+<option value="MANAGER">....MANAGER...</option>
+</select>
+<hr><div id="emp_details"></div>
+</body>
+</html>
